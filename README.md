@@ -39,3 +39,25 @@ Learn all UNIX based bash commands
 4. **rm -r** removes directories
 
 - Wildcards are useful for selecting groups of files and directories
+
+## Redirection reroutes standard input, standard output, and standard error.
+
+- The common redirection commands are:
+
+1. **>** redirects standard output of a command to a file, overwriting previous content.
+
+2. **>>** redirects standard output of a command to a file, appending new content to old content.
+
+3. **<** redirects standard input to a command.
+
+4. **|** redirects standard output of a command to another command.
+
+## A number of other commands are powerful when combined with redirection commands:
+
+1. **sort**: sorts lines of text alphabetically.
+
+2. **uniq**: filters duplicate, adjacent lines of text.
+
+3. **grep**: searches for a text pattern and outputs it.
+
+4. **sed** : searches for a text pattern, modifies it, and outputs it.
