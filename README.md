@@ -61,3 +61,23 @@ Learn all UNIX based bash commands
 3. **grep**: searches for a text pattern and outputs it.
 
 4. **sed** : searches for a text pattern, modifies it, and outputs it.
+
+- The <i>environment</i> refers to the preferences and settings of the current user.
+
+- The nano editor is a command line text editor used to configure the environment.
+
+- **~/.bash_profile** is where environment settings are stored. You can edit this file with nano.
+
+- Environment variables are variables that can be used across commands and programs and hold information about the environment.
+
+1. **export VARIABLE="Value"** sets and exports an environment variable.
+
+2. **USER** is the name of the current user.
+
+3. **PS1** is the command prompt.
+
+4. **HOME** is the home directory. It is usually not customized.
+
+5. **PATH** returns a colon **:** separated list of file paths. It is customized in advanced cases.
+
+6. **env** returns a list of environment variables. You can redirect the output, using **grep** to select the variable you want to see.
